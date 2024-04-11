@@ -1,0 +1,13 @@
+#location {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 120px;
+    padding-top: 100px;
+}
+
+#location h1 {
+    text-align: center;
+    padding-bottom: 62px;
+    color: rgb(0, 0, 0);
+}
+

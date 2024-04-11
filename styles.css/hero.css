@@ -1,0 +1,40 @@
+#hero {
+  background-image: url(/assets/Spring-Campaign-Header-Image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+}
+
+.hero-article {
+  max-width: 1080px;
+  margin: auto;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#HeroBtn {
+  color: #ffffff;
+  background-color: #2d63c8;
+  font-size: 19px;
+  border: 1px solid #2d63c8;
+  padding: 15px 50px;
+  cursor: pointer;
+  margin-left: 110px;
+}
+
+/*H1 Animation*/
+
+.ml17 {
+  color: #2d63c8;
+  padding: 40px 0;
+  font-weight: 800;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  overflow: hidden;
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 110px;
+}

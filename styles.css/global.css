@@ -1,0 +1,21 @@
+/*Imports*/
+@import url(/styles.css/nav.css);
+@import url(/styles.css/hero.css);
+@import url(/styles.css/oplev.css);
+@import url(/styles.css/gallery.css);
+@import url(/styles.css/blue-column-section.css);
+@import url(/styles.css/contact.css);
+@import url(/styles.css/location.css);
+@import url(/styles.css/footer.css);
+@import url(/styles.css/slider.css);
+@import url(/styles.css/@mediaquerys.css);
+@import url(/styles.css/price.css);
+@import url(/styles.css/redirectedForm.css);
+@import url(/styles.css/om-os.css);
+/*global styles*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*undersøg denne attribut*/
+  font-family: Tahoma, Verdana, Segoe;
+}

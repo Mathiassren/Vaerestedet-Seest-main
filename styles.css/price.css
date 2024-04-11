@@ -1,0 +1,101 @@
+.pricelisting {
+  height: 800px;
+  display: flex;
+  max-width: 1080px;
+  margin: auto;
+}
+
+#price-h1 {
+  padding: 80px 0px 20px;
+  text-align: center;
+}
+
+.price-section {
+  background-color: rgb(238, 238, 238);
+  width: 400px;
+  height: 600px;
+  border-radius: 10px;
+  margin: 100px;
+  border-top: 30px solid #890caf;
+  box-shadow: 7px 7px 26px -2px rgba(105, 104, 104, 0.75);
+  -webkit-box-shadow: 7px 7px 26px -2px rgba(105, 104, 104, 0.75);
+  -moz-box-shadow: 7px 7px 26px -2px rgba(105, 104, 104, 0.75);
+}
+
+.price-section2 {
+  background-color: rgb(238, 238, 238);
+  width: 400px;
+  height: 600px;
+  border-radius: 10px;
+  margin: 100px;
+  border-top: 30px solid #6acb3a;
+  box-shadow: 7px 7px 26px -2px rgba(105, 104, 104, 0.75);
+  -webkit-box-shadow: 7px 7px 26px -2px rgba(105, 104, 104, 0.75);
+  -moz-box-shadow: 7px 7px 26px -2px rgba(105, 104, 104, 0.75);
+}
+
+.price-section h3 {
+  text-align: center;
+  padding: 50px 0px 20px;
+  font-size: 2rem;
+}
+
+.price-section2 h3 {
+  text-align: center;
+  padding: 50px 0px 20px;
+  font-size: 2rem;
+}
+
+.price {
+  font-size: 3.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.properties {
+  font-size: 1em;
+  text-align: left;
+  padding-left: 35px;
+  padding-top: 50px;
+}
+
+.properties i {
+  display: flex;
+  padding: 5px;
+}
+
+.fa-check::before {
+  color: #6acb3a;
+}
+
+.properties p {
+  padding-left: 5px;
+  font-size: 1rem;
+}
+
+.price {
+  padding-top: 100px;
+}
+
+.formular {
+  color: #ffffff;
+  background-color: #2d63c8;
+  font-size: 1.1rem;
+  border: 1px solid #2d63c8;
+  padding: 15px 50px;
+  cursor: pointer;
+  margin-top: 50px;
+  box-shadow: 7px 7px 26px -2px rgba(105, 104, 104, 0.75);
+  -webkit-box-shadow: 7px 7px 26px -2px rgba(105, 104, 104, 0.75);
+  -moz-box-shadow: 7px 7px 26px -2px rgba(105, 104, 104, 0.75);
+}
+
+#HeroBtn-price {
+  color: #ffffff;
+  background-color: #2d63c8;
+  font-size: 19px;
+  border: 1px solid #2d63c8;
+  padding: 15px 50px;
+  cursor: pointer;
+  margin-left: 110px;
+}

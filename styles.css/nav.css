@@ -1,0 +1,130 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #ffffff;
+  width: 96%;
+}
+
+.nav-width {
+  background-color: #ebeeed;
+}
+
+.nav-contact {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  min-height: 2vh;
+  max-width: 1080px;
+  margin: auto;
+}
+
+.nav-contact i {
+  Color: #0c7dff;
+  margin-top: 3px;
+}
+
+.nav-contact div {
+  display: flex;
+}
+
+.nav-contact div p {
+  padding: 0 20px 0px 5px;
+}
+
+.nav-links,
+a {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-around;
+  list-style: none;
+  cursor: pointer;
+  color: white;
+}
+
+.logo {
+  font-size: 2.813rem;
+  color: #0c7dff;
+  font-weight: bold;
+  cursor: pointer;
+  max-width: 1080px;
+  margin: auto;
+}
+
+/*Background colorlist for list items*/
+/*Yellow*/
+.color-F5B64A {
+  background-color: #f5b64a;
+  width: 151px;
+  height: 95px;
+  margin-top: 34px;
+  border-radius: 24px 0px 0px 0px;
+}
+
+/*Orange*/
+.color-FE5225 {
+  background-color: #fe5225;
+  width: 151px;
+  height: 95px;
+  margin-top: 34px;
+}
+
+/*Green*/
+.color-6ACB3A {
+  background-color: #6acb3a;
+  width: 151px;
+  height: 95px;
+  margin-top: 34px;
+}
+
+/*baby blue*/
+.color-3AA3CB {
+  background-color: #3aa3cb;
+  width: 151px;
+  height: 95px;
+  margin-top: 34px;
+}
+
+/*Purple*/
+.color-CB3AA9 {
+  background-color: #cb3aa9;
+  width: 151px;
+  height: 95px;
+  margin-top: 34px;
+  transition: height 0.5s ease-in-out, margin-top 0.5s ease-in-out;
+ 
+}
+
+/*ease in/out 0.5s*/
+.color-F5B64A,
+.color-FE5225,
+.color-6ACB3A,
+.color-3AA3CB,
+.color-CB3AA9 {
+  transition: height 0.5s ease-in-out, margin-top 0.5s ease-in-out;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 33px;
+}
+
+.fa-facebook {
+  cursor: pointer;
+}
+
+.ml16 {
+  color: #000000;
+  padding: 40px 0;
+  font-weight: 800;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  overflow: hidden;
+  padding-left: 240px;
+}
+
+.ml16 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
